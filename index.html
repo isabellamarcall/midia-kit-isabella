@@ -215,9 +215,16 @@
                         <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300"></i>
                     </div>
                 </div>
-                <!-- Imagem 7 (Ocupando 2 colunas para fechar o grid com estilo) -->
-                <div class="rounded-2xl overflow-hidden aspect-[2/1] md:aspect-square lg:col-span-2 shadow-sm hover:shadow-xl cursor-pointer group relative" onclick="openLightbox('ALEB/Foto-carro.jpeg')">
-                    <img src="ALEB/Foto-carro.jpeg" alt="Galeria 7" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                <!-- Imagem 7 (Agora quadrada igual as outras) -->
+                <div class="rounded-2xl overflow-hidden aspect-square shadow-sm hover:shadow-xl cursor-pointer group relative" onclick="openLightbox('ALEB/Foto-carro.jpeg')">
+                    <img src="ALEB/Foto-carro.jpeg" alt="Galeria 7" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-brand-900/0 group-hover:bg-brand-900/20 transition-colors duration-300 flex items-center justify-center">
+                        <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300"></i>
+                    </div>
+                </div>
+                <!-- Imagem 8 (Nova foto adicionada) -->
+                <div class="rounded-2xl overflow-hidden aspect-square shadow-sm hover:shadow-xl cursor-pointer group relative" onclick="openLightbox('ALEB/foto-sorriso.jpeg')">
+                    <img src="ALEB/foto-sorriso.jpeg" alt="Galeria 8" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-brand-900/0 group-hover:bg-brand-900/20 transition-colors duration-300 flex items-center justify-center">
                         <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300"></i>
                     </div>
@@ -363,6 +370,59 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Fluxo de Trabalho (Nova Seção Escura) -->
+    <section class="py-24 bg-gray-950 text-white relative overflow-hidden">
+        <!-- Elementos de design de fundo -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-20">
+            <div class="absolute w-96 h-96 bg-brand-500 rounded-full blur-[120px] -top-10 -left-10"></div>
+            <div class="absolute w-96 h-96 bg-purple-600 rounded-full blur-[120px] bottom-10 right-10"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-sm font-bold uppercase tracking-widest text-brand-400">Profissionalismo</h2>
+                <h3 class="text-4xl font-serif font-bold mt-2">Fluxo de Trabalho</h3>
+                <p class="text-gray-400 mt-4 text-lg">
+                    Transparência e organização em todas as etapas, do primeiro contato até o resultado final.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                <!-- Passo 1 -->
+                <div class="relative bg-gray-900/80 backdrop-blur-md p-8 rounded-3xl border border-gray-800 hover:border-brand-500/50 transition-colors group shadow-xl">
+                    <div class="absolute -top-5 left-8 w-12 h-12 bg-gray-950 text-brand-400 font-extrabold rounded-full flex items-center justify-center text-xl border border-gray-800 group-hover:border-brand-500 group-hover:text-brand-500 transition-all shadow-lg">1</div>
+                    <i class="fa-regular fa-comments text-4xl text-gray-700 mb-6 group-hover:text-gray-300 transition-colors mt-2"></i>
+                    <h4 class="text-xl font-bold mb-3 text-gray-100">Briefing</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Alinhamento das expectativas da marca, objetivos centrais da campanha e adequação do tom de voz.</p>
+                </div>
+                
+                <!-- Passo 2 -->
+                <div class="relative bg-gray-900/80 backdrop-blur-md p-8 rounded-3xl border border-gray-800 hover:border-brand-500/50 transition-colors group shadow-xl">
+                    <div class="absolute -top-5 left-8 w-12 h-12 bg-gray-950 text-brand-400 font-extrabold rounded-full flex items-center justify-center text-xl border border-gray-800 group-hover:border-brand-500 group-hover:text-brand-500 transition-all shadow-lg">2</div>
+                    <i class="fa-solid fa-pen-nib text-4xl text-gray-700 mb-6 group-hover:text-gray-300 transition-colors mt-2"></i>
+                    <h4 class="text-xl font-bold mb-3 text-gray-100">Roteiro</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Criação do roteiro adaptado à linguagem real do perfil e envio do esqueleto para a aprovação da marca.</p>
+                </div>
+
+                <!-- Passo 3 -->
+                <div class="relative bg-gray-900/80 backdrop-blur-md p-8 rounded-3xl border border-gray-800 hover:border-brand-500/50 transition-colors group shadow-xl">
+                    <div class="absolute -top-5 left-8 w-12 h-12 bg-gray-950 text-brand-400 font-extrabold rounded-full flex items-center justify-center text-xl border border-gray-800 group-hover:border-brand-500 group-hover:text-brand-500 transition-all shadow-lg">3</div>
+                    <i class="fa-solid fa-video text-4xl text-gray-700 mb-6 group-hover:text-gray-300 transition-colors mt-2"></i>
+                    <h4 class="text-xl font-bold mb-3 text-gray-100">Produção</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Gravação em alta qualidade e edição nativa dinâmica, sempre com foco em alta retenção e conexão.</p>
+                </div>
+
+                <!-- Passo 4 -->
+                <div class="relative bg-gray-900/80 backdrop-blur-md p-8 rounded-3xl border border-gray-800 hover:border-brand-500/50 transition-colors group shadow-xl">
+                    <div class="absolute -top-5 left-8 w-12 h-12 bg-gray-950 text-brand-400 font-extrabold rounded-full flex items-center justify-center text-xl border border-gray-800 group-hover:border-brand-500 group-hover:text-brand-500 transition-all shadow-lg">4</div>
+                    <i class="fa-solid fa-paper-plane text-4xl text-gray-700 mb-6 group-hover:text-gray-300 transition-colors mt-2"></i>
+                    <h4 class="text-xl font-bold mb-3 text-gray-100">Entrega</h4>
+                    <p class="text-sm text-gray-500 leading-relaxed">Publicação nas datas e horários de maior pico acordados, com envio posterior de relatório de métricas.</p>
+                </div>
             </div>
         </div>
     </section>
